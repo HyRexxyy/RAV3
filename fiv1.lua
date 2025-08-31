@@ -13,15 +13,23 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Window
 local Window = Rayfield:CreateWindow({
-    Name = "Fish It Script",
-    LoadingTitle = "Fish It",
-    LoadingSubtitle = "by @HyRexxyy",
-    Theme = "Amethyst",
-    ConfigurationSaving = {
-        Enabled = true,
-        FolderName = "Rexxyy",
-        FileName = "FishIt"
-    },
+   Name = "Fish It SC",
+   Icon = 0,
+   LoadingTitle = "Fish It Autofarm",
+   LoadingSubtitle = "by HyRexxyy",
+   ShowText = "Menu",
+   Theme = "Amethyst",
+
+   ToggleUIKeybind = "K",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = RexxyyV1,
+      FileName = "Fish It"
+   },
     KeySystem = false
 })
 
