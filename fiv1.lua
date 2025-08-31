@@ -8,12 +8,6 @@ local UserInputService = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
 local TeleportService = game:GetService("TeleportService")
 
-
-local Players = game:GetService("Players")
-local replicatedStorage = game:GetService("ReplicatedStorage")
-local player = Players.LocalPlayer
-if not player or not replicatedStorage then return end
-
 -- Load Rayfield
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua"))()
 
