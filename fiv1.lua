@@ -530,3 +530,5 @@ else
         Duration = 1
     })
 end
+    Rayfield:LoadConfiguration()
+end
